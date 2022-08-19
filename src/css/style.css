@@ -1,0 +1,180 @@
+div {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Profile Section*/
+#profile {
+    margin: auto;
+    padding-top: 3%;
+    text-align: center;
+}
+
+#profile img {
+    max-width: 30%;
+}
+
+#profile h1 {
+    margin-top: 0.2em;
+
+    font-family: "Archivo Black";
+    font-weight: 800;
+    font-size: 5em;
+}
+
+#profile p {
+    font-size: larger;
+}
+
+/* Buttons */
+.btn {
+    background: #3f72af;
+    color: white;
+    padding: 8px 25px;
+    font-size: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 2em;
+}
+
+.btn:hover {
+    background: #112d4e;
+    color: white;
+}
+
+/* Information Section */
+#information {
+    display: flex;
+}
+
+#information h4 {
+    font-weight: 800;
+}
+
+#information #honesty {
+    flex: 55%;
+
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 4em;
+    padding-right: 1em;
+
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#information #info {
+    flex: 45%;
+
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2em;
+    padding-right: 4em;
+}
+
+#info table {
+    width: 80%;
+}
+
+#info th {
+    height: 2em;
+}
+
+/* Education Section */
+#education {
+    margin: auto;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.edu-container {
+    display: flex;
+    max-width: 80%;
+
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    padding: 0;
+
+    border: #bdbdbd;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1em;
+
+    box-shadow: 0.2em 0.2em 0.1em 0.1em #bdbdbd;
+}
+
+.edu-container .edu-title {
+    flex: 5%;
+    max-width: 30%;
+    max-height: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    color: white;
+}
+
+.edu-container #edu-title-bach {
+    padding-top: 1.5em;
+}
+
+.edu-container #edu-title-mast {
+    padding-top: 3.5em;
+}
+
+.edu-container #edu-title-dipl {
+    padding-top: 1.5em;
+}
+
+.edu-container .edu-desc {
+    flex: 30%;
+
+    margin-top: 0;
+    margin-left: 2em;
+    padding: 0;
+    padding-top: 1em;
+    text-align: left;
+}
+
+/* Contact Me Section */
+#contact-me {
+    margin: auto;
+    padding-top: 3%;
+    padding-left: 15%;
+
+    text-align: left;
+}
+
+#contact-me .spacer{
+    margin: 0;
+    padding: 0;
+    height: 0.7em;
+}
+
+#contact-me .required{
+    color: rgba(255, 0, 0, 0.7);
+    font-size: small;
+}
+
+.hidden{
+    display: none;
+}
+
+#contact-me #contact-name,
+#contact-salutation,
+#contact-email,
+#contact-address,
+#contact-city,
+#contact-province,
+#contact-postal,
+#contact-rate {
+    width: 20em;
+    height: 1.9em;
+}
+
+#contact-me #contact-comment{
+    min-height: 5em;
+}
